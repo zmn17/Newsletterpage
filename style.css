@@ -1,9 +1,9 @@
-html {
-    font-size: 16px;
-}
-
+html,
 body {
+    font-size: 18px;
     background-color: gray;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .main-container {
@@ -128,12 +128,12 @@ body {
 }
 
 .btn-2 button:hover {
-    background-color: gray;
+    background-color: #808080;
 }
 
 .section-2 {
     grid-area: sec-2;
-    background-color: lightcyan;
+    background-color: #e0ffff;
     width: 50%;
     height: auto;
 }
@@ -165,12 +165,12 @@ body {
 
 .sec-2-para-2 {
     text-align: justify;
-    margin: -4% 27% 5% 13%;
+    margin: -4% 27% 0 13%;
     font-size: 0.90em;
 }
 
 .btn-3 {
-    margin: 5% 35% 0 30%;
+    margin: 1% 35% 0 30%;
 }
 
 .btn-3 button {
@@ -180,6 +180,7 @@ body {
     font-weight: 600;
     height: 25px;
     width: 80%;
+    margin-bottom: 12%;
 }
 
 .btn-3 button:hover {
